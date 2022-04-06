@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Vikas_Resume/static/css/main.e87c7e7a.css",
-    "main.js": "/Vikas_Resume/static/js/main.26a3d9c6.js",
+    "main.css": "/Vikas_Resume/static/css/main.eaae2c82.css",
+    "main.js": "/Vikas_Resume/static/js/main.43dfa0e6.js",
     "static/js/787.b2ee34be.chunk.js": "/Vikas_Resume/static/js/787.b2ee34be.chunk.js",
     "static/media/pexels-pixabay-290275.jpg": "/Vikas_Resume/static/media/pexels-pixabay-290275.eaec32d38e56fda0bf0f.jpg",
     "static/media/react.png": "/Vikas_Resume/static/media/react.da363b94e54e6deee792.png",
     "static/media/WhatsApp Image 2022-03-23 at 8.48.38 AM.jpg": "/Vikas_Resume/static/media/WhatsApp Image 2022-03-23 at 8.48.38 AM.bbd1a32d189fac06fb1a.jpg",
     "static/media/R.png": "/Vikas_Resume/static/media/R.5ba3b35402f547977570.png",
     "index.html": "/Vikas_Resume/index.html",
-    "main.e87c7e7a.css.map": "/Vikas_Resume/static/css/main.e87c7e7a.css.map",
-    "main.26a3d9c6.js.map": "/Vikas_Resume/static/js/main.26a3d9c6.js.map",
+    "main.eaae2c82.css.map": "/Vikas_Resume/static/css/main.eaae2c82.css.map",
+    "main.43dfa0e6.js.map": "/Vikas_Resume/static/js/main.43dfa0e6.js.map",
     "787.b2ee34be.chunk.js.map": "/Vikas_Resume/static/js/787.b2ee34be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e87c7e7a.css",
-    "static/js/main.26a3d9c6.js"
+    "static/css/main.eaae2c82.css",
+    "static/js/main.43dfa0e6.js"
   ]
 }
