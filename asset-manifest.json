@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Vikas_Resume/static/css/main.faf9a688.css",
-    "main.js": "/Vikas_Resume/static/js/main.c7c69fe6.js",
+    "main.css": "/Vikas_Resume/static/css/main.c54b5b6f.css",
+    "main.js": "/Vikas_Resume/static/js/main.b4a3e2ae.js",
     "static/js/787.b2ee34be.chunk.js": "/Vikas_Resume/static/js/787.b2ee34be.chunk.js",
     "static/media/pexels-pixabay-290275.jpg": "/Vikas_Resume/static/media/pexels-pixabay-290275.eaec32d38e56fda0bf0f.jpg",
     "static/media/dribbble_problem-solved.gif": "/Vikas_Resume/static/media/dribbble_problem-solved.74b1100656202402233c.gif",
+    "static/media/thoughtworks-gif_dribbble.gif": "/Vikas_Resume/static/media/thoughtworks-gif_dribbble.e5c19b68fc0f40e2228a.gif",
     "static/media/react.png": "/Vikas_Resume/static/media/react.da363b94e54e6deee792.png",
     "static/media/WhatsApp Image 2022-03-23 at 8.48.38 AM.jpg": "/Vikas_Resume/static/media/WhatsApp Image 2022-03-23 at 8.48.38 AM.bbd1a32d189fac06fb1a.jpg",
     "static/media/R.png": "/Vikas_Resume/static/media/R.5ba3b35402f547977570.png",
     "index.html": "/Vikas_Resume/index.html",
-    "main.faf9a688.css.map": "/Vikas_Resume/static/css/main.faf9a688.css.map",
-    "main.c7c69fe6.js.map": "/Vikas_Resume/static/js/main.c7c69fe6.js.map",
+    "main.c54b5b6f.css.map": "/Vikas_Resume/static/css/main.c54b5b6f.css.map",
+    "main.b4a3e2ae.js.map": "/Vikas_Resume/static/js/main.b4a3e2ae.js.map",
     "787.b2ee34be.chunk.js.map": "/Vikas_Resume/static/js/787.b2ee34be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf9a688.css",
-    "static/js/main.c7c69fe6.js"
+    "static/css/main.c54b5b6f.css",
+    "static/js/main.b4a3e2ae.js"
   ]
 }
