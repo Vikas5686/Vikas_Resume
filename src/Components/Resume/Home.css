@@ -1,0 +1,286 @@
+/* Navbar css */
+* {
+  text-align: center;
+  /* color: black; */
+  font-family: "Aladin";
+  scroll-behavior: smooth;
+}
+:root{
+  --bs-dark:white !important;
+  --bs-blue: black !important;
+  --bs-back:#e7feff ;
+  --bs-purple: #0d6efd;
+}
+.P{
+  width: 30%;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 7px 1px var(--bs-blue);
+  border: 2px solid white;
+}
+.V{
+  width: 40%;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 7px 1px var(--bs-blue);
+  border: 2px solid white;
+}
+/* .reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+} */
+
+
+#offcanvasNavbar {
+  transition: 0.5s;
+}
+a {
+  text-decoration: none !important;
+}
+
+.nav-link img {
+  width: 160px;
+  border-radius: 30%;
+  border: 2px solid black;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link img:hover {
+  transform: scale(1.02);
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar-secondary {
+  /* background-color: #004d40 !important; */
+  background-color: var(--bs-blue) !important;
+}
+
+/* content css */
+.row {
+  margin: 0px;
+  padding: 0px;
+  transition: 5s;
+}
+.Row_2{
+  padding: 20px;
+}
+
+/* .border_l_R{
+  border-left: 5px solid #0d6efd;
+  border-right: 5px solid #0d6efd;
+} */
+
+ul li {
+  list-style: none;
+}
+
+.right_aboutMe {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  /* background-color: #689cc1; */
+  background-color: var(--bs-blue);
+  color: var(--bs-dark) !important;
+  height: 100vh;
+  padding-top: 5px;
+
+}
+
+.nav-link img:hover {
+  translate: scale(1.02);
+}
+
+.left_Content {
+  background: url("./img/pexels-pixabay-290275.jpg") no-repeat center center/cover;
+  height: 100vh;
+  background-blend-mode: multiply;
+  margin-left: -2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler-icon {
+  color: rgb(2, 2, 2);
+  background-color: white;
+}
+
+.toogler {
+  width: 50px;
+}
+
+.toogle_Close {
+  width: 50px;
+}
+
+.left_Content h2 {
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.left_Content h1 {
+  margin-top: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  position: relative;
+  border-bottom: 0px !important;
+  text-shadow: 0px 0px 10px black;
+}
+
+.left_Content h1::before {
+  text-transform: uppercase;
+  content: "Vikas~sharma";
+  color: #00d7fe;
+  text-shadow: 0px 0px 10px black;
+  width: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 5px solid cyan;
+  animation: slide 8s linear infinite;
+  overflow: hidden;
+}
+
+.left_Content span {
+  text-transform: uppercase;
+  color: gold;
+  font-size: 40px;
+  text-shadow: 0px 0px 10px black;
+
+}
+
+.left_Content h2 {
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+
+.left_Content .React_LOgo {
+  width: 30%;
+  margin-bottom: 50px;
+  animation: rotate 12s infinite linear;
+}
+
+ul li a {
+  margin-top: 5px;
+  color: var(--bs-dark) !important;
+  font-size: 20px;
+  display: inline-block !important;
+  cursor: pointer;
+}
+a h2{
+  margin-top: 15px;
+  color: white;
+}
+
+.right_aboutMe ul li  :hover{
+  color: white !important;
+  cursor: pointer;
+  text-shadow: 0px 0px 5px white;
+}
+li:hover > a i {
+  color: purple;
+}
+ul li a i {
+margin: 0px 15px;
+}
+
+i {
+  margin: 5px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .right_aboutMe {
+    display: none;
+  }
+
+  .offcanvas-end {
+    top: 0;
+    left: 0;
+    /* background: black; */
+    width: 300px;
+    border-left: 1px solid rgba(0,0,0,.2);
+    transform: translateX(-100%);
+}
+
+  .logo {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .navbar {
+
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .offcanvas-body {
+    /* background-color: #689cc1; */
+    background-color: #007aa5;
+    color: var(--bs-dark);
+  }
+
+  .offcanvas-header {
+    /* background-color: #689cc1; */
+    background-color: #007aa5;
+    color: var(--bs-dark);
+
+    outline: none;
+  }
+  .offcanvas-body ul li :hover{
+    text-shadow: 0px 0px 5px white;
+  }
+a h2{
+  margin-top: 15px;
+  color: var(--bs-dark);
+}
+  li:hover > a i {
+    color: purple;
+  }
+  .icon {
+    display: block;
+  }
+  .toogler{
+    width: 35px !important;
+  }
+}

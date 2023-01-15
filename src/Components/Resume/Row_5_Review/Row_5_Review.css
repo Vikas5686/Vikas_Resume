@@ -1,0 +1,119 @@
+.pos-r {
+    position: relative;
+}
+.Review{
+    background-color: var(--bs-back);
+    padding: 20px;
+}
+section{
+    height: 100vh;
+
+}
+.Review h1{
+    text-align: left;
+    font-size: 50px;
+    border-bottom: 5px solid var(--bs-purple);
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.testimonial,
+.testimonial.box {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial .testimonial-img,
+.testimonial.box .testimonial-img {
+    border-radius: 40% 0% 20% 0;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin-right: 30px;
+    width: 100%;
+}
+
+.testimonial .testimonial-img img,
+.testimonial.box .testimonial-img img {
+    border-radius: 0;
+    max-height: 350px;
+}
+
+.testimonial .testimonial-quote {
+    color: var(--bs-back);
+    left: 0;
+    right: inherit;
+    transform: rotate(-180deg);
+}
+
+.testimonial-carousel.testimonial-inner .controls {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+}
+
+.testimonial-carousel.testimonial-inner .controls li {
+    position: absolute;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    z-index: 99;
+    opacity: 0.6;
+    width: 130px;
+    height: 130px;
+    margin: inherit;
+    float: none;
+    width: 80px;
+    height: 80px;
+    animation: inherit;
+}
+
+.testimonial-carousel.testimonial-inner i {
+    font-size: 45px;
+}
+
+.testimonial-inner .controls li:nth-child(1) {
+    left: 0;
+    bottom: 0%;
+}
+
+.testimonial-inner .controls li:nth-child(2) {
+    left: 3%;
+    bottom: 30%;
+}
+
+.testimonial-inner .controls li:nth-child(3) {
+    left: 0;
+    bottom: 60%;
+}
+
+.testimonial-carousel.testimonial-inner .controls li.active {
+    opacity: 1;
+}
+
+.nav li img {
+    border-radius: 50%;
+}
+
+@media(max-width:991px) {
+
+    .testimonial,
+    .testimonial.box {
+        display: block;
+        margin: auto;
+    }
+
+    .testimonial .testimonial-img img,
+    .testimonial.box .testimonial-img img {
+        max-height: 180px;
+        margin: auto;
+        display: block;
+    }
+
+    .carousel {
+        position: relative;
+        text-align: center;
+    }
+    section{
+        height: 73vh;
+    }
+}

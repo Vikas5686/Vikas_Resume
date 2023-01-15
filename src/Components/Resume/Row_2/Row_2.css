@@ -1,0 +1,45 @@
+.Row_2{
+    background-color: var(--bs-back);
+    padding-top: 20px;
+}
+
+.Row_2 h1{
+    font-size: 40px;
+    text-shadow: 0px 0px 2px cyan;
+    cursor: pointer;
+}
+.Row_2 h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px cyan;
+
+}
+.Row_2 h2:hover{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px orange;
+    cursor: pointer;
+
+}
+.Row_2 p{
+    font-size: 25px;
+}
+.Row_2 img{
+    width: 200px;
+    border: 3px solid black;
+    margin: 15px 0px;
+    cursor: pointer;
+
+}
+.resume_list ul li{
+    font-size: 20px;
+    text-align: left;
+}
+@media screen and (max-width:760px) {
+    .Row_2{
+        width: 100%;
+    }
+.resume_list ul li{
+text-align: center;
+}
+}

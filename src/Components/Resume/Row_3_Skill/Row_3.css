@@ -1,0 +1,32 @@
+.Row_3{
+    width: 100%;
+    background-color: var(--bs-back);
+    padding: 40px;
+}
+.progress-bar{
+    margin: 3px 3px
+}
+.Skills_progress{
+    display: flex   ;
+    justify-content: space-between;
+    margin:15px;
+}
+.border_l{
+    border-left: 5px solid var(--bs-purple);
+    padding-left: 30px;
+}
+.border_R{
+    border-right: 5px solid var(--bs-purple);
+    padding-right: 30px;
+}
+.column_2{
+    margin-top: 30px;
+}
+.practice{
+    padding: 60px 0px;
+}
+@media screen and (max-width:760px) {
+    .Row_3{
+        height: auto;
+    }
+}

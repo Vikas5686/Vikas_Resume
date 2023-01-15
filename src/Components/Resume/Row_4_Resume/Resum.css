@@ -1,0 +1,82 @@
+.Row_4{
+    width: 100%;
+    background-color: var(--bs-back);
+    padding: 20px;
+}
+.reveal h1{
+    text-align: left;
+    font-size: 50px;
+    border-bottom: 5px solid var(--bs-purple);
+    width: fit-content;
+}
+img + p{
+    font-size: 25px;
+}
+p+button {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+button a{
+    color: white;
+}
+button a :hover{
+    color:#0d6efd !important;
+
+}
+p+button:hover{
+    background-color: white !important;
+    color:#0d6efd !important;
+}
+button + h3{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.badge{
+    letter-spacing: 1px;
+    color: white !important;
+    background-color: #0d6efd !important;
+}
+.internship h4{
+    text-shadow: 0px 0px 10px  #0d6efd;
+    margin-top: 10px;
+}
+h4+strong{
+    font-size: 20px;
+    text-align: left;
+}
+.Projects{
+    margin: 30px 0px;
+}
+
+
+.Row_4 .col-md-6 p{
+    font-size: 20px;
+    display: block;
+    text-align: left;
+}
+.internship{
+    margin: 10px 0px;
+
+}
+.edu{
+    margin-top: 10px;
+}
+a strong{
+    color: rgb(45, 45, 251);
+}
+a :hover{
+    text-shadow: 0px 0px 10px black;
+}
+.col-12 p{
+    font-size: 20px;
+}
+@media screen and (max-width:770px) {
+.Row_4 .col-md-6 p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
