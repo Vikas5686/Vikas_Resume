@@ -3,12 +3,11 @@
     background-color: var(--bs-back);
     padding: 20px;
 }
-.reveal h1{
-    text-align: left;
-    font-size: 50px;
-    border-bottom: 5px solid var(--bs-purple);
-    width: fit-content;
-}
+
+.Advance_projects p{
+    font-family: sans-serif;
+    font-weight: bold;
+  }
 img + p{
     font-size: 25px;
 }

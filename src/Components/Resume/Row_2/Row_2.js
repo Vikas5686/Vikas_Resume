@@ -1,6 +1,6 @@
 import React from 'react'
 import './Row_2.css'
-// import Logo from '../img/WhatsApp Image 2022-03-23 at 8.48.38 AM.jpg'
+import Logo from '../img/WhatsApp Image 2023-04-10 at 21.04.42.jpg'
 import Count from 'react-countup'
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
@@ -13,7 +13,8 @@ export default function Row_2() {
          
 
           <h1>About Me</h1>
-         {/* <img src={Logo} alt="" /> */}
+          <h5>Don’t stop smiling</h5>
+         <img src={Logo} alt="" />
           <h2>Frontent React Developer & Software Developer.</h2>
           <p>I am a Web Developer. I love Developing of Websites as well as software. i am also a Competitive Programer .</p>
          

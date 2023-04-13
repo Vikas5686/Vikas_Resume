@@ -1,10 +1,18 @@
 /* Navbar css */
+
 * {
   text-align: center;
   /* color: black; */
   font-family: "Aladin";
   scroll-behavior: smooth;
+  user-select: none;
 }
+.reveal h1{
+  text-align: left;
+  border-bottom: 5px solid var(--bs-purple);
+  width: fit-content;
+}
+
 :root{
   --bs-dark:white !important;
   --bs-blue: black !important;
@@ -62,7 +70,70 @@ a {
   background-color: var(--bs-blue) !important;
 }
 
+.mousehovering {
+  width: 100px;
+  height: 100px;
+  background: #ffd700;
+  position: absolute;
+  z-index: 0;
+  filter: blur(10px);
+}
+
+.mouseRing{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid red;
+  z-index: 2;
+  position: absolute;
+  transition: 1s;
+}
+#ring1{
+  border: 5px solid gold;
+  transition: 1.5s;
+}
+
+.AnimatedCss:hover{
+  animation: animate__rubberBand 5s infinite ease-in-out;
+
+}
+
+
 /* content css */
+
+.Contentbox{
+  background: url("./img/grid.svg") ;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  background-size: 200px;
+  background-attachment: fixed;
+  padding: 0px !important;
+}
+.Landing_page{
+  width: 100%;
+  height: 100vh;
+  transition: 1s;
+  background: linear-gradient(cyan,red,orange);
+  animation: backgroundtransform 5s infinite ease-in-out;
+ 
+}
+@keyframes backgroundtransform {
+  0%{
+
+    background: linear-gradient(yellow,cyan,rgb(208, 255, 0));
+  }
+  25%{
+    background: linear-gradient(red,cyan,orange);
+  }
+  50%{
+  background: linear-gradient(cyan,red,orange);
+  }
+  100%{
+    
+    background: linear-gradient(rgb(255, 96, 242),hsl(111, 97%, 63%),rgb(50, 220, 250));
+  }
+}
 .row {
   margin: 0px;
   padding: 0px;
@@ -82,12 +153,15 @@ ul li {
 }
 
 .right_aboutMe {
+  border: 3px solid gold;
+  background: url('./img/grid.svg');
+  background-color: cyan;
+  background-size: 75px;
+  position: fixed;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 1;
-  /* background-color: #689cc1; */
-  background-color: var(--bs-blue);
   color: var(--bs-dark) !important;
   height: 100vh;
   padding-top: 5px;
@@ -99,7 +173,9 @@ ul li {
 }
 
 .left_Content {
-  background: url("./img/pexels-pixabay-290275.jpg") no-repeat center center/cover;
+  /* background: url("./img/grid.svg") ; */
+  /* background-size: 200px; */
+  padding: 0px !important;
   height: 100vh;
   background-blend-mode: multiply;
   margin-left: -2px;
@@ -107,6 +183,12 @@ ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: backcolor 8s linear infinite;
+}
+@keyframes slide {
+  10%{
+
+  }
 }
 
 .navbar-toggler-icon {
@@ -122,13 +204,14 @@ ul li {
   width: 50px;
 }
 
+
 .left_Content h2 {
   color: black;
   font-weight: bolder;
   font-size: 40px;
 }
 
-.left_Content h1 {
+.left_Content h2 {
   margin-top: 10px;
   font-weight: bolder;
   text-transform: uppercase;
@@ -139,7 +222,7 @@ ul li {
   text-shadow: 0px 0px 10px black;
 }
 
-.left_Content h1::before {
+.left_Content h2::before {
   text-transform: uppercase;
   content: "Vikas~sharma";
   color: #00d7fe;
@@ -167,9 +250,9 @@ ul li {
 }
 
 .left_Content .React_LOgo {
-  width: 30%;
+  width: 15%;
   margin-bottom: 50px;
-  animation: rotate 12s infinite linear;
+  animation: rotate 15s infinite linear;
 }
 
 ul li a {
@@ -184,10 +267,12 @@ a h2{
   color: white;
 }
 
-.right_aboutMe ul li  :hover{
+.right_aboutMe ul li  :hover ~ .mouseRing{
   color: white !important;
   cursor: pointer;
   text-shadow: 0px 0px 5px white;
+  transform: scale(6);
+
 }
 li:hover > a i {
   color: purple;
@@ -200,6 +285,9 @@ i {
   margin: 5px;
   font-size: 30px;
   border-radius: 50%;
+}
+.offcanvas-body {
+  padding: 0px !important;
 }
 
 @keyframes rotate {
@@ -241,6 +329,7 @@ i {
 }
 
   .logo {
+    border: 3px solid gold;
     width: 50px;
     border-radius: 50%;
   }
@@ -255,8 +344,10 @@ i {
   }
 
   .offcanvas-body {
-    /* background-color: #689cc1; */
-    background-color: #007aa5;
+    border: 3px solid gold;
+    background: url('./img/grid.svg');
+    background-color: cyan;
+    background-size: 75px;
     color: var(--bs-dark);
   }
 
@@ -281,6 +372,7 @@ a h2{
     display: block;
   }
   .toogler{
+    border: 3px solid gold;
     width: 35px !important;
   }
 }

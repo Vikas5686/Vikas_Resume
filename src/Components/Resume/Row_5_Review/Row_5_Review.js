@@ -11,7 +11,7 @@ export default function Row_5_Review() {
         <h1>Review</h1>
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
               <div id="testimonial-inner" class="testimonial-carousel carousel slide testimonial-inner" data-ride="carousel" data-interval="2500">
                 {/* <!-- Wrapper for slides --> */}
                 <div class="row">
