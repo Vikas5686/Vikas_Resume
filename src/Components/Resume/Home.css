@@ -93,10 +93,7 @@ a {
   transition: 1.5s;
 }
 
-.AnimatedCss:hover{
-  animation: animate__rubberBand 5s infinite ease-in-out;
 
-}
 
 
 /* content css */
