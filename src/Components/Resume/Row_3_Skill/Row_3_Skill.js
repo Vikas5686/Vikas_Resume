@@ -12,8 +12,8 @@ export default function Row_3() {
           <img src={SKIL}  className="V" alt="" />
           <h5>I have Many Types of skills i mention it on belov:</h5>
           <div className="column_2 row ">
-            <div className="col-md-6 border_l" data-aos="fade-right" 
-          data-aos-duration="500"data-aos-easing="ease-in-out-cubic">
+            <div className="col-md-6 border_l" data-aos="zoom-in-right" 
+          data-aos-duration="1500"data-aos-easing="ease-in-out-cubic">
             
               <span className='Skills_progress'>
                 <b>C Language</b>
@@ -51,8 +51,8 @@ export default function Row_3() {
                 <div class="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-            <div className="col-md-6 border_R" data-aos="fade-left"
-     data-aos-duration="500"data-aos-easing="ease-in-out-cubic">
+            <div className="col-md-6 border_R" data-aos="zoom-in-left"
+     data-aos-duration="1500"data-aos-easing="ease-in-out-cubic">
             
             <span className='Skills_progress'>
                 <b>JavaScript</b>
